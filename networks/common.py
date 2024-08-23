@@ -4,8 +4,7 @@ from typing import Any, Callable, Dict, Iterable, Mapping, Optional, Tuple, Unio
 import flax
 import flax.linen as nn
 
-ModuleDef = Callable[..., Callable]
-# InitFn = Callable[[PRNGKey, Shape, DType], Array]
+ModuleDef = Callable[..., Callable]m
 InitFn = Callable[[Any, Iterable[int], Any], Any]
 
 
